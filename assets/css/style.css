@@ -1,30 +1,27 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* BODY START */
 body {
     background-color: #d9dcd6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* Moved the font-family to the body instead of having it in each section */
+    font-size: 16px;
 }
+/* BODY END */
 
-
-/* HEADER /NAV BAR STYLES START */
-header {
-    padding: 20px 35px;
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    display: flex;
-    justify-content: space-between;
     color: #ffffff;
-    flex-wrap: wrap;
 }
 
 .header h1 {
+    display: inline-block;
     font-size: 48px;
-    margin: 0;
-    display: inline;
 }
 
 .header h1 .seo {
@@ -39,29 +36,18 @@ header {
     font-size: 20px;
 }
 
-header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-header nav ul li {
-    display: inline;
+.header div ul li {
+    display: inline-block;
     margin-left: 25px;
 }
 
-header nav ul li a {
-    margin: 0 20px;
-    font-weight: lighter;
-    font-size: 14px;
-}
-
-header a {
+a {
     color: #ffffff;
     text-decoration: none;
-}
-
-header nav {
-    float: right;
-    margin: 7px 0;
 }
 
 p {
