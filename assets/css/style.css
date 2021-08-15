@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+/* Universal Selector */
 
 /* BODY START */
 body {
@@ -12,6 +13,7 @@ body {
 }
 /* BODY END */
 
+/* HEADER START */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,7 +55,9 @@ a {
 p {
     font-size: 16px;
 }
+/* HEADER END */
 
+/* HERO START */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,7 +76,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* HERO ENDS */
 
+/* CONTENT START */
 .content {
     width: 75%;
     display: inline-block;
@@ -137,7 +143,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* CONTENT ENDS */
 
+/* BENEFITS START */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -191,7 +199,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* BENEFITS END */
 
+/* FOOTER START */
 .footer {
     padding: 30px;
     clear: both;
@@ -202,3 +212,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* FOOTER END */
